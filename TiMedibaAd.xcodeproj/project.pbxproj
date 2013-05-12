@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* NetHoyohoyoTimedibaadModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* NetHoyohoyoTimedibaadModule.h */; };
+		24DD6CFA1134B3F500162E58 /* NetHoyohoyoTimedibaadModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* NetHoyohoyoTimedibaadModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.m */; };
+		A1B58996173E8F37006BDF7D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B58995173E8F37006BDF7D /* MediaPlayer.framework */; };
+		A1B58998173E8F43006BDF7D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B58997173E8F43006BDF7D /* CoreTelephony.framework */; };
+		A1B5899A173E8F4E006BDF7D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B58999173E8F4E006BDF7D /* Security.framework */; };
+		A1B5899C173E8F5A006BDF7D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B5899B173E8F5A006BDF7D /* EventKit.framework */; };
+		A1B5899E173E8F60006BDF7D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B5899D173E8F60006BDF7D /* SystemConfiguration.framework */; };
+		A1B589A1173E9168006BDF7D /* NetHoyohoyoTimedibaadView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B5899F173E9168006BDF7D /* NetHoyohoyoTimedibaadView.h */; };
+		A1B589A2173E9168006BDF7D /* NetHoyohoyoTimedibaadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B589A0173E9168006BDF7D /* NetHoyohoyoTimedibaadView.m */; };
+		A1B589A5173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B589A3173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.h */; };
+		A1B589A6173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B589A4173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.m */; };
+		A1B589B8173EAB49006BDF7D /* MasBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B589B3173EAB48006BDF7D /* MasBrowserViewController.h */; };
+		A1B589B9173EAB49006BDF7D /* MasConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B589B4173EAB48006BDF7D /* MasConstants.h */; };
+		A1B589BA173EAB49006BDF7D /* MasManagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B589B5173EAB49006BDF7D /* MasManagerViewController.h */; };
+		A1B589BB173EAB49006BDF7D /* MasVideoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B589B6173EAB49006BDF7D /* MasVideoViewController.h */; };
+		A1B589BE173EAF1D006BDF7D /* libMedibaAdSDK2.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B589BC173EAE56006BDF7D /* libMedibaAdSDK2.0.3.a */; };
+		AA747D9F0F9514B9006C5449 /* NetHoyohoyoTimedibaad_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NetHoyohoyoTimedibaad_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TiMedibaAd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* NetHoyohoyoTimedibaadModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetHoyohoyoTimedibaadModule.h; path = Classes/NetHoyohoyoTimedibaadModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* NetHoyohoyoTimedibaadModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetHoyohoyoTimedibaadModule.m; path = Classes/NetHoyohoyoTimedibaadModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetHoyohoyoTimedibaadModuleAssets.h; path = Classes/NetHoyohoyoTimedibaadModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetHoyohoyoTimedibaadModuleAssets.m; path = Classes/NetHoyohoyoTimedibaadModuleAssets.m; sourceTree = "<group>"; };
+		A1B58995173E8F37006BDF7D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A1B58997173E8F43006BDF7D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A1B58999173E8F4E006BDF7D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A1B5899B173E8F5A006BDF7D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A1B5899D173E8F60006BDF7D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1B5899F173E9168006BDF7D /* NetHoyohoyoTimedibaadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHoyohoyoTimedibaadView.h; sourceTree = "<group>"; };
+		A1B589A0173E9168006BDF7D /* NetHoyohoyoTimedibaadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetHoyohoyoTimedibaadView.m; sourceTree = "<group>"; };
+		A1B589A3173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHoyohoyoTimedibaadViewProxy.h; sourceTree = "<group>"; };
+		A1B589A4173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetHoyohoyoTimedibaadViewProxy.m; sourceTree = "<group>"; };
+		A1B589B3173EAB48006BDF7D /* MasBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasBrowserViewController.h; path = Classes/MasBrowserViewController.h; sourceTree = "<group>"; };
+		A1B589B4173EAB48006BDF7D /* MasConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasConstants.h; path = Classes/MasConstants.h; sourceTree = "<group>"; };
+		A1B589B5173EAB49006BDF7D /* MasManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasManagerViewController.h; path = Classes/MasManagerViewController.h; sourceTree = "<group>"; };
+		A1B589B6173EAB49006BDF7D /* MasVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasVideoViewController.h; path = Classes/MasVideoViewController.h; sourceTree = "<group>"; };
+		A1B589BC173EAE56006BDF7D /* libMedibaAdSDK2.0.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMedibaAdSDK2.0.3.a; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* NetHoyohoyoTimedibaad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHoyohoyoTimedibaad_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libNetHoyohoyoTimedibaad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetHoyohoyoTimedibaad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B589BE173EAF1D006BDF7D /* libMedibaAdSDK2.0.3.a in Frameworks */,
+				A1B5899E173E8F60006BDF7D /* SystemConfiguration.framework in Frameworks */,
+				A1B5899C173E8F5A006BDF7D /* EventKit.framework in Frameworks */,
+				A1B5899A173E8F4E006BDF7D /* Security.framework in Frameworks */,
+				A1B58998173E8F43006BDF7D /* CoreTelephony.framework in Frameworks */,
+				A1B58996173E8F37006BDF7D /* MediaPlayer.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libNetHoyohoyoTimedibaad.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* TiMedibaAd */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = TiMedibaAd;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B589BC173EAE56006BDF7D /* libMedibaAdSDK2.0.3.a */,
+				A1B58997173E8F43006BDF7D /* CoreTelephony.framework */,
+				A1B5899B173E8F5A006BDF7D /* EventKit.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				A1B58995173E8F37006BDF7D /* MediaPlayer.framework */,
+				A1B58999173E8F4E006BDF7D /* Security.framework */,
+				A1B5899D173E8F60006BDF7D /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1B589B3173EAB48006BDF7D /* MasBrowserViewController.h */,
+				A1B589B4173EAB48006BDF7D /* MasConstants.h */,
+				A1B589B5173EAB49006BDF7D /* MasManagerViewController.h */,
+				A1B589B6173EAB49006BDF7D /* MasVideoViewController.h */,
+				24DE9E0F11C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* NetHoyohoyoTimedibaadModule.h */,
+				24DD6CF81134B3F500162E58 /* NetHoyohoyoTimedibaadModule.m */,
+				A1B5899F173E9168006BDF7D /* NetHoyohoyoTimedibaadView.h */,
+				A1B589A0173E9168006BDF7D /* NetHoyohoyoTimedibaadView.m */,
+				A1B589A3173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.h */,
+				A1B589A4173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* NetHoyohoyoTimedibaad_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* NetHoyohoyoTimedibaad_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* NetHoyohoyoTimedibaadModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h in Headers */,
+				A1B589A1173E9168006BDF7D /* NetHoyohoyoTimedibaadView.h in Headers */,
+				A1B589A5173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.h in Headers */,
+				A1B589B8173EAB49006BDF7D /* MasBrowserViewController.h in Headers */,
+				A1B589B9173EAB49006BDF7D /* MasConstants.h in Headers */,
+				A1B589BA173EAB49006BDF7D /* MasManagerViewController.h in Headers */,
+				A1B589BB173EAB49006BDF7D /* MasVideoViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* TiMedibaAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiMedibaAd" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiMedibaAd;
+			productName = TiMedibaAd;
+			productReference = D2AAC07E0554694100DB518D /* libNetHoyohoyoTimedibaad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiMedibaAd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* TiMedibaAd */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* TiMedibaAd */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* NetHoyohoyoTimedibaadModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.m in Sources */,
+				A1B589A2173E9168006BDF7D /* NetHoyohoyoTimedibaadView.m in Sources */,
+				A1B589A6173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* TiMedibaAd */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/NetHoyohoyoTimedibaad.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NetHoyohoyoTimedibaad_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads/iphone/iOS_MedibaAdSDK_2.0.3/SDK\"",
+					"\"$(SRCROOT)/assets/SDK\"",
+					"\"$(SRCROOT)/Classes\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NetHoyohoyoTimedibaad;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/NetHoyohoyoTimedibaad.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NetHoyohoyoTimedibaad_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads/iphone/iOS_MedibaAdSDK_2.0.3/SDK\"",
+					"\"$(SRCROOT)/assets/SDK\"",
+					"\"$(SRCROOT)/Classes\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NetHoyohoyoTimedibaad;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/NetHoyohoyoTimedibaad.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NetHoyohoyoTimedibaad_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NetHoyohoyoTimedibaad;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/NetHoyohoyoTimedibaad.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NetHoyohoyoTimedibaad_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NetHoyohoyoTimedibaad;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiMedibaAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiMedibaAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

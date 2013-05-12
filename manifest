@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: Titanium module for displaying mediba ad.
+author: Keigo AOKI
+license: Apache License
+copyright: Copyright (c) 2013 Keigo AOKI
+
+
+# these should not be edited
+name: TiMedibaAd
+moduleid: net.hoyohoyo.timedibaad
+guid: 42f6f2ea-7ecb-40fa-a70a-09bb2cc57cf5
+platform: iphone
+minsdk: 3.1.0.GA
