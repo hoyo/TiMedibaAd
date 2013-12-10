@@ -9,6 +9,7 @@
 #import "TiHost.h"
 #import "TiUtils.h"
 #import "MasConstants.h"
+#import "MasIconadConstants.h"
 
 @implementation NetHoyohoyoTimedibaadModule
 
@@ -89,8 +90,12 @@
 
 -(id)version
 {
-	// return version of mediba ad SDK
 	return MAS_VERSION;
+}
+
+-(id)versionIconAd
+{
+	return MAS_ICONAD_TYPE;
 }
 
 @end

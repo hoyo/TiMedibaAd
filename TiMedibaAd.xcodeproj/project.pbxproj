@@ -26,6 +26,10 @@
 		24DD6CFA1134B3F500162E58 /* NetHoyohoyoTimedibaadModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* NetHoyohoyoTimedibaadModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.m */; };
+		A185E33A18564D9800B6EFE0 /* MasIconadBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A185E33718564D9800B6EFE0 /* MasIconadBrowserViewController.h */; };
+		A185E33B18564D9800B6EFE0 /* MasIconadConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A185E33818564D9800B6EFE0 /* MasIconadConstants.h */; };
+		A185E33C18564D9800B6EFE0 /* MasIconadManagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A185E33918564D9800B6EFE0 /* MasIconadManagerViewController.h */; };
+		A185E33E18564E0600B6EFE0 /* libMedibaAdIconAdSDK1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E33D18564E0600B6EFE0 /* libMedibaAdIconAdSDK1.0.0.a */; };
 		A1B58996173E8F37006BDF7D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B58995173E8F37006BDF7D /* MediaPlayer.framework */; };
 		A1B58998173E8F43006BDF7D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B58997173E8F43006BDF7D /* CoreTelephony.framework */; };
 		A1B5899A173E8F4E006BDF7D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B58999173E8F4E006BDF7D /* Security.framework */; };
@@ -60,15 +64,19 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetHoyohoyoTimedibaadModuleAssets.h; path = Classes/NetHoyohoyoTimedibaadModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetHoyohoyoTimedibaadModuleAssets.m; path = Classes/NetHoyohoyoTimedibaadModuleAssets.m; sourceTree = "<group>"; };
+		A185E33718564D9800B6EFE0 /* MasIconadBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasIconadBrowserViewController.h; path = Classes/MasIconadBrowserViewController.h; sourceTree = "<group>"; };
+		A185E33818564D9800B6EFE0 /* MasIconadConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasIconadConstants.h; path = Classes/MasIconadConstants.h; sourceTree = "<group>"; };
+		A185E33918564D9800B6EFE0 /* MasIconadManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasIconadManagerViewController.h; path = Classes/MasIconadManagerViewController.h; sourceTree = "<group>"; };
+		A185E33D18564E0600B6EFE0 /* libMedibaAdIconAdSDK1.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMedibaAdIconAdSDK1.0.0.a; sourceTree = "<group>"; };
 		A1B58995173E8F37006BDF7D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		A1B58997173E8F43006BDF7D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A1B58999173E8F4E006BDF7D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A1B5899B173E8F5A006BDF7D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		A1B5899D173E8F60006BDF7D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		A1B5899F173E9168006BDF7D /* NetHoyohoyoTimedibaadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHoyohoyoTimedibaadView.h; sourceTree = "<group>"; };
-		A1B589A0173E9168006BDF7D /* NetHoyohoyoTimedibaadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetHoyohoyoTimedibaadView.m; sourceTree = "<group>"; };
-		A1B589A3173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHoyohoyoTimedibaadViewProxy.h; sourceTree = "<group>"; };
-		A1B589A4173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetHoyohoyoTimedibaadViewProxy.m; sourceTree = "<group>"; };
+		A1B5899F173E9168006BDF7D /* NetHoyohoyoTimedibaadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetHoyohoyoTimedibaadView.h; path = Classes/NetHoyohoyoTimedibaadView.h; sourceTree = "<group>"; };
+		A1B589A0173E9168006BDF7D /* NetHoyohoyoTimedibaadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetHoyohoyoTimedibaadView.m; path = Classes/NetHoyohoyoTimedibaadView.m; sourceTree = "<group>"; };
+		A1B589A3173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetHoyohoyoTimedibaadViewProxy.h; path = Classes/NetHoyohoyoTimedibaadViewProxy.h; sourceTree = "<group>"; };
+		A1B589A4173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetHoyohoyoTimedibaadViewProxy.m; path = Classes/NetHoyohoyoTimedibaadViewProxy.m; sourceTree = "<group>"; };
 		A1B589B3173EAB48006BDF7D /* MasBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasBrowserViewController.h; path = Classes/MasBrowserViewController.h; sourceTree = "<group>"; };
 		A1B589B4173EAB48006BDF7D /* MasConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasConstants.h; path = Classes/MasConstants.h; sourceTree = "<group>"; };
 		A1B589B5173EAB49006BDF7D /* MasManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasManagerViewController.h; path = Classes/MasManagerViewController.h; sourceTree = "<group>"; };
@@ -89,6 +97,7 @@
 				A1B5899C173E8F5A006BDF7D /* EventKit.framework in Frameworks */,
 				A1B5899A173E8F4E006BDF7D /* Security.framework in Frameworks */,
 				A1B58998173E8F43006BDF7D /* CoreTelephony.framework in Frameworks */,
+				A185E33E18564E0600B6EFE0 /* libMedibaAdIconAdSDK1.0.0.a in Frameworks */,
 				A1B58996173E8F37006BDF7D /* MediaPlayer.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 			);
@@ -119,6 +128,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A185E33D18564E0600B6EFE0 /* libMedibaAdIconAdSDK1.0.0.a */,
 				A1B589BC173EAE56006BDF7D /* libMedibaAdSDK2.0.3.a */,
 				A1B58997173E8F43006BDF7D /* CoreTelephony.framework */,
 				A1B5899B173E8F5A006BDF7D /* EventKit.framework */,
@@ -135,6 +145,9 @@
 			children = (
 				A1B589B3173EAB48006BDF7D /* MasBrowserViewController.h */,
 				A1B589B4173EAB48006BDF7D /* MasConstants.h */,
+				A185E33718564D9800B6EFE0 /* MasIconadBrowserViewController.h */,
+				A185E33818564D9800B6EFE0 /* MasIconadConstants.h */,
+				A185E33918564D9800B6EFE0 /* MasIconadManagerViewController.h */,
 				A1B589B5173EAB49006BDF7D /* MasManagerViewController.h */,
 				A1B589B6173EAB49006BDF7D /* MasVideoViewController.h */,
 				24DE9E0F11C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h */,
@@ -167,12 +180,15 @@
 			files = (
 				AA747D9F0F9514B9006C5449 /* NetHoyohoyoTimedibaad_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* NetHoyohoyoTimedibaadModule.h in Headers */,
+				A185E33B18564D9800B6EFE0 /* MasIconadConstants.h in Headers */,
+				A185E33A18564D9800B6EFE0 /* MasIconadBrowserViewController.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* NetHoyohoyoTimedibaadModuleAssets.h in Headers */,
 				A1B589A1173E9168006BDF7D /* NetHoyohoyoTimedibaadView.h in Headers */,
 				A1B589A5173E9184006BDF7D /* NetHoyohoyoTimedibaadViewProxy.h in Headers */,
 				A1B589B8173EAB49006BDF7D /* MasBrowserViewController.h in Headers */,
 				A1B589B9173EAB49006BDF7D /* MasConstants.h in Headers */,
 				A1B589BA173EAB49006BDF7D /* MasManagerViewController.h in Headers */,
+				A185E33C18564D9800B6EFE0 /* MasIconadManagerViewController.h in Headers */,
 				A1B589BB173EAB49006BDF7D /* MasVideoViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +218,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiMedibaAd" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -287,10 +305,11 @@
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../Downloads/iphone/iOS_MedibaAdSDK_2.0.3/SDK\"",
-					"\"$(SRCROOT)/assets/SDK\"",
-					"\"$(SRCROOT)/Classes\"",
-					"\"$(SRCROOT)\"",
+					"\\\"$(SRCROOT)/../../../../Downloads/iphone/iOS_MedibaAdSDK_2.0.3/SDK\\\"",
+					"\\\"$(SRCROOT)/assets/SDK\\\"",
+					"\\\"$(SRCROOT)/Classes\\\"",
+					"$(SRCROOT)",
+					/Users/hoyo/Documents/workspace/git/TiMedibaAd,
 				);
 				OTHER_CFLAGS = (
 					"-DDEBUG",
@@ -331,10 +350,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../Downloads/iphone/iOS_MedibaAdSDK_2.0.3/SDK\"",
-					"\"$(SRCROOT)/assets/SDK\"",
-					"\"$(SRCROOT)/Classes\"",
-					"\"$(SRCROOT)\"",
+					"\\\"$(SRCROOT)/../../../../Downloads/iphone/iOS_MedibaAdSDK_2.0.3/SDK\\\"",
+					"\\\"$(SRCROOT)/assets/SDK\\\"",
+					"\\\"$(SRCROOT)/Classes\\\"",
+					"$(SRCROOT)",
+					/Users/hoyo/Documents/workspace/git/TiMedibaAd,
 				);
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";

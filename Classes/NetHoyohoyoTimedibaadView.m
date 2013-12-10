@@ -4,17 +4,17 @@
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
  */
-
 #import "NetHoyohoyoTimedibaadView.h"
 #import "TiApp.h"
 
 @implementation NetHoyohoyoTimedibaadView
-@synthesize mas = mas_;
 
 -(void)dealloc
 {
-    self.mas.delegate = nil;
-    RELEASE_TO_NIL(self.mas);
+    masIconad_.delegate = nil;
+    mas_.delegate = nil;
+    RELEASE_TO_NIL(masIconad_);
+    RELEASE_TO_NIL(mas_);
     [super dealloc];
 }
 
@@ -22,21 +22,37 @@
 {
     if (self.mas == nil)
     {
-        self.mas = [[MasManagerViewController alloc] init];
-        self.mas.delegate = self;
-        [self addSubview:self.mas.view];
-        self.mas.applicationView = self;
-        if ([[UIScreen mainScreen] bounds].size.height == 568.0)
+        if ([TiUtils boolValue:[self.proxy valueForKey:@"isIconAd"]])
         {
-            self.mas.metricsSize = kMasMVMSize_retina4full;
+            masIconad_ = [[MasIconadManagerViewController alloc] init];
+            masIconad_.delegate = self;
+            [self addSubview:masIconad_.view];
+            masIconad_.adOrigin = CGPointMake(0, 0);
+            masIconad_.textVisible = 1;
+            masIconad_.iconCount = 4;
+            masIconad_.sID = [self.proxy valueForKey:@"sId"];
+            [masIconad_ loadRequest];
+            self.mas = masIconad_;
         }
         else
         {
-            self.mas.metricsSize = kMasMVMSize_retina35full;
+            mas_ = [[MasManagerViewController alloc] init];
+            mas_.delegate = self;
+            [self addSubview:mas_.view];
+            mas_.applicationView = self;
+            if ([[UIScreen mainScreen] bounds].size.height == 568.0)
+            {
+                mas_.metricsSize = kMasMVMSize_retina4full;
+            }
+            else
+            {
+                mas_.metricsSize = kMasMVMSize_retina35full;
+            }
+            [mas_ setPosition:kMasMVPosition_none];
+            mas_.sID = [self.proxy valueForKey:@"sId"];
+            [mas_ loadRequest];
+            self.mas = mas_;
         }
-        [self.mas setPosition:kMasMVPosition_bottom];
-        self.mas.sID = [self.proxy valueForKey:@"sId"];
-        [self.mas loadRequest];
     }
     
     CGFloat w = bounds.size.width;
@@ -47,16 +63,32 @@
 -(void)willHide
 {
     NSLog(@"disappeared");
-    if (self.mas) {
-        [self.mas pauseRefresh];
+    if (self.mas)
+    {
+        if ([self.proxy valueForKey:@"isIconAd"])
+        {
+            [masIconad_ pauseRefresh];
+        }
+        else
+        {
+            [mas_ pauseRefresh];
+        }
     }
 }
 
 -(void)willShow
 {
     NSLog(@"appeared");
-    if (self.mas) {
-        [self.mas resumeRefresh];
+    if (self.mas)
+    {
+        if ([self.proxy valueForKey:@"isIconAd"])
+        {
+            [masIconad_ resumeRefresh];
+        }
+        else
+        {
+            [mas_ resumeRefresh];
+        }
     }
 }
 
@@ -78,10 +110,17 @@
 
 -(void)masBrowserViewControllerShow
 {
-    if (!y_) {
+    if (!y_)
+    {
         y_ = self.frame.origin.y;
     }
-    self.frame = CGRectMake(0, 0, self.bounds.size.width, [[UIScreen mainScreen] bounds].size.height);
+    int top = 20;
+    if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1)
+    {
+        top = 0;
+    }
+
+    self.frame = CGRectMake(0, top, self.bounds.size.width, [[UIScreen mainScreen] bounds].size.height);
     if ([self.proxy _hasListeners:@"openbrowser"])
     {
         [self.proxy fireEvent:@"openbrowser"];

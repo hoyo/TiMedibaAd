@@ -5,15 +5,17 @@
  * Please see the LICENSE included with this distribution for details.
  */
 #import "TiUIView.h"
+#import "MasIconadManagerViewController.h"
 #import "MasManagerViewController.h"
 
 @interface NetHoyohoyoTimedibaadView : TiUIView<MasManagerViewControllerDelegate>
 {
+    MasIconadManagerViewController *masIconad_;
     MasManagerViewController *mas_;
     float y_;
 }
 
-@property (strong, retain) MasManagerViewController *mas;
+@property (strong, retain) UIViewController *mas;
 
 -(void)willHide;
 -(void)willShow;
