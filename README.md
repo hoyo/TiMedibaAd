@@ -46,6 +46,28 @@ tabGroup.add(ad);
 tabGroup.open();
 ```
 
+Alloyの場合のサンプル。上からそれぞれindex.js, index.tss, index.xmlです。
+
+```javascript
+$.index.open();
+```
+
+```javascript
+'#ad': {
+  bottom: 0,
+  height: 50,
+  sId: '9dc279bec0d0c4419582d58d1f8a11ca29bc24a4e39a3059'
+}
+```
+
+```xml
+<Alloy>
+  <Window>
+    <Module id="ad" module="net.hoyohoyo.timedibaad" />
+  </Window>
+</Alloy>
+```
+
 利用上の注意
 ----
 
